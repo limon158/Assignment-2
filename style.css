@@ -148,30 +148,30 @@ ul.menu-items {
     padding-top: 10px;
   }
   .logo h3 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .menu .menu-items li a {
     margin-left: 8px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .banner {
     margin-top: 50px;
   }
   .banner .banner-title {
     margin: 10px 0;
-    font-size: 30px;
+    font-size: 25px;
   }
   .description {
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 10%;
   }
   .primary-btn {
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .banner-img {
-    margin-top: 30px;
+    margin: 30px 0;
   }
   .banner-img img {
     width: 80%;
@@ -190,7 +190,7 @@ ul.menu-items {
   }
   .first-section .title {
     margin: 24px 0;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
   .first-section .description {
@@ -203,7 +203,7 @@ ul.menu-items {
 /* media quary for tablet --------------------------------------------- */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .nav-bar {
-    padding-top: 25px;
+    padding-top: 30px;
   }
   .logo h3 {
     font-size: 25px;
@@ -212,17 +212,17 @@ ul.menu-items {
     margin-top: 70px;
   }
   .banner .banner-title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .description {
     padding: 0 10%;
   }
   .primary-btn {
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 15px;
   }
   .first-section .title {
     margin-bottom: 24px;
-    font-size: 25px;
+    font-size: 20px;
   }
 }

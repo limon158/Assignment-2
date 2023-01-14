@@ -1,18 +1,37 @@
-
 /* custom variables  */
 
-:root{
-    --work-sans: 'Work Sans', sans-serif;
-    --white: #FFFFFF;
-    --dark-1: #131313;
-    --dark-2: #424242;
-    --dark-3: #727272;
-    --orange: #FF900E;
-    --background-1: rgba(255, 144, 14, 0.1);
+:root {
+  --work-sans: "Work Sans", sans-serif;
+  --white: #ffffff;
+  --dark-1: #131313;
+  --dark-2: #424242;
+  --dark-3: #727272;
+  --orange: #ff900e;
+  --background-1: rgba(255, 144, 14, 0.1);
 }
 
 /* common styles */
-*{
-    margin: 0;
-    font-family: var(--work-sans);
+* {
+  margin: 0;
+  font-family: var(--work-sans);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(-black-1);
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-item li a {
+  list-style: none;
+  text-decoration: none;
 }

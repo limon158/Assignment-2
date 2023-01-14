@@ -246,6 +246,15 @@ ul.menu-items {
   .second-section .description{
     padding: 0;
   }
+  .heading .title {
+    border-left: 3px solid var(--orange);
+    padding-left: 15px;
+    font-size: 24px;
+  }
+  .content-title{
+    font-size: 15px;
+
+  }
   .second-sec-img img{
     width: 100%;
     height: auto;
@@ -281,6 +290,9 @@ ul.menu-items {
     margin: 50px 0;
     flex-direction: column;
     gap: 30px;
+  }
+  .heading .title {
+    font-size: 30px;
   }
   .second-section .description{
     padding: 0;

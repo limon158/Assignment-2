@@ -15,7 +15,7 @@
   margin: 0;
   font-family: var(--work-sans);
 }
-.primary-btn{
+.primary-btn {
   border: 0;
   border-radius: 8px;
   background-color: var(--orange);
@@ -23,7 +23,6 @@
   padding: 20px 25px;
   font-weight: 600;
   font-size: 20px;
-  
 }
 
 /* header section style starts here -------------------------------------------- */
@@ -78,14 +77,14 @@ ul.menu-items {
 }
 .banner .banner-title {
   text-align: center;
-  margin:15px 0;
+  margin: 15px 0;
   font-weight: 700;
   font-size: 64px;
   color: var(--dark-1);
 }
-.banner .banner-description {
+.description {
   text-align: center;
-  margin:15px 0;
+  margin: 15px 0;
   font-weight: 400;
   font-size: 16px;
   color: var(--dark-3);
@@ -103,6 +102,46 @@ ul.menu-items {
   padding-bottom: 50px;
 }
 
+/* main section styles ---------------------------------------- */
+
+/* first section styles---------------- */
+
+.first-section {
+  margin: 100px 0;
+  padding: 0 10%;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.photo-galary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.photo-galary img {
+  width: 100%;
+  height: auto;
+}
+.first-section .title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--dark-1);
+}
+#part-one {
+  color: var(--dark-3);
+  font-weight: 500;
+}
+#part-two {
+  color: var(--orange);
+}
+.first-section .description {
+  text-align: left;
+  margin-bottom: 32px;
+  padding: 0;
+}
 /* media quary for phone ---------------------------------------- */
 @media screen and (max-width: 576px) {
   .nav-bar {
@@ -119,25 +158,45 @@ ul.menu-items {
     margin-top: 50px;
   }
   .banner .banner-title {
-    margin:10px 0;
+    margin: 10px 0;
     font-size: 30px;
   }
-  .banner .banner-description {
-    margin:10px 0;
+  .description {
+    margin: 10px 0;
     font-size: 16px;
     padding: 0 10%;
   }
-  .primary-btn{
+  .primary-btn {
     padding: 15px 20px;
     font-size: 16px;
-    
   }
-  .banner-img{
+  .banner-img {
     margin-top: 30px;
   }
   .banner-img img {
     width: 80%;
     height: auto;
+  }
+  .first-section {
+    margin: 30px 0;
+    padding: 0 5%;
+    flex-direction: column;
+  }
+  .section-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-section .title {
+    margin: 24px 0;
+    font-size: 25px;
+    text-align: center;
+  }
+  .first-section .description {
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 0 10%;
   }
 }
 
@@ -155,8 +214,15 @@ ul.menu-items {
   .banner .banner-title {
     font-size: 40px;
   }
-  .banner .banner-description {
+  .description {
     padding: 0 10%;
   }
-
+  .primary-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .first-section .title {
+    margin-bottom: 24px;
+    font-size: 25px;
+  }
 }

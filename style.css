@@ -16,22 +16,60 @@
   font-family: var(--work-sans);
 }
 
+/* header section style starts here -------------------------------------------- */
+.header {
+  width: 100%;
+  background-color: var(--background-1);
+}
 .nav-bar {
+  width: 100%;
+  padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-.logo {
+.logo h3 {
   font-weight: 700;
   font-size: 45px;
-  color: var(-black-1);
+  color: var(--dark-1);
 }
-.menu-item {
+#logo-highlight{
+  color: var(--orange);
+}
+
+.menu .menu-items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-.menu-item li a {
+.menu .menu-items li {
   list-style: none;
+}
+
+.menu .menu-items li a {
   text-decoration: none;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark-2);
+}
+
+
+/* media quary for phone ---------------------------------------- */
+@media screen and (max-width: 576px) {
+  .nav-bar{
+    padding-top: 10px;
+  }
+  .logo h3{
+    font-size: 15px;
+  }
+  ul.menu-items{
+    padding: 0;
+  }
+  .menu .menu-items li a {
+    border: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 10px;
+  }
 }
